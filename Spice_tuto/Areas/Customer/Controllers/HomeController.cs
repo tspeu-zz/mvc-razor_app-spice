@@ -9,6 +9,7 @@ using Spice_tuto.Models;
 
 namespace Spice_tuto.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
